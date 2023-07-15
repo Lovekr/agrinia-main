@@ -1,0 +1,312 @@
+.logo img {
+    height: 200px;
+    max-width: 100%;
+    width: 200px;
+}
+body{
+    background: url(/landingimg/landing-background.jpg) center no-repeat;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+}
+.box {
+    background: url(/landingimg/Agricultural.png) center no-repeat;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    /* padding: 50px; */
+}
+.box2 {
+    background: url(/landingimg/Gardening.png) center no-repeat;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+    padding: 50px;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    height: 370px; /* Should be removed. Only for demonstration */
+}
+
+.title-section h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    margin-left: -20%;
+}
+
+.title-section h1 span{
+    color : #65B22A;
+}
+.title-section p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    color: #5E5E5E;
+}
+.title-section p{
+    /* margin: 20px; */
+    /* margin: 0 78px; */
+    margin: 0px 222px 0 50px;
+    /* padding: 0 206px 0 200px; */
+}
+.organ_btn {
+    font-family: 'Roboto';
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    height: 40px;
+    border: none;
+    background: var(--theme-color);
+    border-radius: 50px;
+    padding: 0 44px;
+    letter-spacing: -.34px;
+    display: inline-block;
+    font-size: 10px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 800;
+    line-height: 44px;
+    transition: all ease 400ms;
+    -moz-transition: all ease 400ms;
+    -webkit-transition: all ease 400ms;
+}
+/* .organ_btn:before {
+    position: absolute;
+    left: auto;
+    right: 0;
+    height: 100%;
+    content: '';
+    z-index: -1;
+    width: 50px;
+    overflow: hidden;
+    border-radius: inherit;
+    background: url(landingimg/icons.png) right bottom no-repeat ;
+} */
+.box-div{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 65px;
+    margin-left: 70px;
+}
+
+.landingagri img{
+    width: 160px;
+}
+.landingagri p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    top: 29px;
+    align-items: center;
+    text-align: center;
+    color: #5E5E5E;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+#containerSocail{
+    margin-top: -70px;
+}
+.box-div p,  .box-div1 p{
+    /* font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    /* display: flex; */
+    /* align-items: center;
+    text-align: center;
+    color: #5E5E5E;  */
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    top: 29px;
+    align-items: center;
+    text-align: center;
+    color: #5E5E5E;
+}
+
+.box-div img{
+    /* position: absolute;
+    right: 259px;
+    left: auto;
+    bottom: -1;
+    z-index: 2;
+    width: 30px;
+    /* top: 135px; */
+    /* bottom: 116px;  */
+
+    /* position: absolute;
+    transform: translateX(-50%);
+    right: 25%;
+    /* right: 259px; */
+    /* left: auto; */
+    /* bottom: -1;
+    z-index: 2;
+    width: 91px; */
+    /* top: 232px; */
+    /* margin: 0 auto;
+    text-align: center;
+    bottom: 108px;
+    width: 150px;
+    height: 42px;  */
+
+    position: absolute;
+    transform: translateX(-50%);
+    right: 25%;
+    z-index: 2;
+    margin: 0px auto;
+    text-align: center;
+    bottom: 88px;
+    width: 150px;
+    height: 42px;
+    
+}
+
+.box-div1 img{
+    /* position: absolute;
+    right: 300px;
+    left: auto;
+    bottom: -1;
+    z-index: 2;
+    width: 30px;
+    top: auto;
+    bottom: 116px; */
+
+    position: absolute;
+    transform: translateX(-50%);
+    right: 30%;
+    /* right: 300px; */
+    /* left: auto; */
+    bottom: -1;
+    z-index: 2;
+    width: 91px;
+    /* top: 232px; */
+    margin: 0 auto;
+    text-align: center;
+    bottom: 98px;
+    width: 150px;
+    height: 42px;
+}
+
+.box-div1 {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+/* Clear floats after the columns */
+#res::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.abSocial a  {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background: #65B22A !important;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 27px;
+    color: #fbfbfb;
+    font-size: 14px;
+    margin: 0 4px;
+}
+@media (max-width: 991px){
+.headerMiddle .logo img {
+    height: 200px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+body {
+    background: url(landingimg/mobileViewbackground.png) center no-repeat;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+}
+.title-section h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 58px;
+    margin: 0;
+}
+.title-section p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #5E5E5E;
+    letter-spacing: 0.02em;
+    margin: 0;
+}
+.abSocial a {
+    display: inline-block;
+    width: 25px;
+    height: 26px;
+    background: #65B22A !important;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 27px;
+    color: #fbfbfb;
+    font-size: 14px;
+    margin: 0 4px;
+    margin-bottom: 30px;
+}
+
+#containerSocail{
+    margin-top: -26px;
+}
+.organ_btn {
+    font-family: 'Roboto';
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    height: 32px;
+    border: none;
+    background: var(--theme-color);
+    border-radius: 50px;
+    padding: 0px 12px;
+    letter-spacing: -.34px;
+    display: inline-block;
+    font-size: 10px;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 800;
+    line-height: 33px;
+    transition: all ease 400ms;
+    -moz-transition: all ease 400ms;
+    -webkit-transition: all ease 400ms;
+}
+.box-div {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -100px;
+    margin-left: 70px;
+}
+.box-div {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -100px;
+    margin-left: 70px;
+}
+.box-div p, .box-div1 p{
+    display: none;
+}
+}
